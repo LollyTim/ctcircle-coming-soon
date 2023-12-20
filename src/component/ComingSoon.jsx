@@ -9,7 +9,7 @@ const ComingSoon = () => {
             <p className=' dark:text-white to-blue-900 '>Crown Tech Circle</p>
            <div className=' flex flex-row gap-4 items-center '>
            <input className=' w-80 justify-center p-5 h-10 rounded-xl placeholder:flex placeholder:justify-center placeholder:text-slate-400 placeholder:text-md placeholder:pl-3 outline-none' type="email" placeholder='Join Waiting List' required />
-           <button type='submit' className=' text-yellow-200 bg-indigo-800 py-[1px] px-3  rounded-xl '>Join</button>
+           <button type="submit" className=' text-yellow-200 bg-indigo-800 py-[1px] px-3  rounded-xl '></button>
            </div>
        </div>
     </div>
