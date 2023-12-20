@@ -11,7 +11,7 @@ const ComingSoon = () => {
   return (
     <div className=' overflow-hidden dark:bg-[#0e1024]  bg-white w-[100%] h-[100vh] gap-10  items-center justify-center flex relative'>
        <div className=' items-center justify-center w-full mx-auto flex flex-col leading-[40px]'>
-        <div className=' gradient absolute  '></div>
+        <div className=' gradient absolute animate-spin-slow lg:animate-none md:animate-none  '></div>
         <div className=' gradient1 absolute w-10 h-10 right-0 top-0 '></div>
         <div className=' gradient1 absolute w-10 h-10 left-0 bottom-0 '></div>
         <img src={logo} alt="" className='absolute opacity-40 '/>
