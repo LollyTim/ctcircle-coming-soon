@@ -14,7 +14,7 @@ const ComingSoon = () => {
         <div className=' gradient absolute animate-spin-slow lg:animate-none md:animate-none  '></div>
         <div className=' gradient1 absolute w-10 h-10 right-0 top-0 '></div>
         <div className=' gradient1 absolute w-10 h-10 left-0 bottom-0 '></div>
-        <img src={logo} alt="" className='absolute opacity-40 '/>
+        <img src={logo} alt="" className='absolute opacity-40 animate-spin-slow lg:animate-none md:animate-none  '/>
         <h1 className='absolute  dark:text-green-400 text-blue-900 text-4xl lg:text-6xl top-32 '>Crown Tech Citcle</h1>
         <img src={bgimg} alt="" className='absolute opacity-40 z-0 w-full h-full'/>
         <img src={logo} alt="" className='absolute opacity-40 md:flex hidden lg:flex left-[-10px] top-[-15px] animate-spin-slow '/>
